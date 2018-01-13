@@ -1574,7 +1574,7 @@
 	}
 
 	a {
-		color: #e9685f;
+		color: #e67e22;
 		text-decoration: underline;
 	}
 
@@ -1792,7 +1792,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #e9685f;
+			border-color: #e67e22;
 		}
 
 	.select-wrapper {
@@ -1901,7 +1901,7 @@
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #e9685f;
+			border-color: #e67e22;
 		}
 
 	input[type="radio"] + label:before {
@@ -2338,7 +2338,7 @@
 		input[type="reset"].special,
 		input[type="button"].special,
 		.button.special {
-			background-color: #e9685f;
+			background-color: #e67e22;
 			color: #ffffff !important;
 		}
 
@@ -2381,7 +2381,7 @@
 		.feature i {
 			border-radius: 100%;
 			border: solid 3px #eee;
-			color: #e9685f;
+			color: #e67e22;
 			display: block;
 			height: 7em;
 			left: 0;
@@ -2480,7 +2480,7 @@
 	}
 
 		.wrapper.style1 {
-			background: #e9685f;
+			background: #e67e22;
 			color: #f9d9d7;
 		}
 
@@ -2539,7 +2539,7 @@
 			}
 
 				#header h1 a:before {
-					color: #e9685f;
+					color: #e67e22;
 					margin-right: 0.35em;
 				}
 
@@ -2678,7 +2678,7 @@
 	#banner {
 		background-color: #f6f6f6;
 		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
+		background-image: url("images/overlay.png"), url("../../images/banner.png");
 		background-position: top left,							center center;
 		background-repeat: repeat,								no-repeat;
 		background-size: auto,								cover;
@@ -2788,31 +2788,6 @@
 			vertical-align: middle;
 			width: 50%;
 		}
-
-		#one .device {
-			border: solid 40px #fff;
-			border-bottom: 0;
-			border-radius: 20px;
-			border-bottom-left-radius: 0;
-			border-bottom-right-radius: 0;
-			display: inline-block;
-			margin-bottom: 0;
-			position: relative;
-			vertical-align: middle;
-			width: 50%;
-		}
-
-			#one .device:after {
-				background: #eee;
-				border-radius: 100%;
-				content: '';
-				height: 10px;
-				left: 50%;
-				margin: -23px 0 0 -5px;
-				position: absolute;
-				top: 0;
-				width: 10px;
-			}
 
 /* Footer */
 
