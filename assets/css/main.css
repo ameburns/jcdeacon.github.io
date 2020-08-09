@@ -2740,10 +2740,10 @@
 	}
 
 		#banner:after {
-			-moz-transition: opacity 4s ease-in-out;
-			-webkit-transition: opacity 4s ease-in-out;
-			-ms-transition: opacity 4s ease-in-out;
-			transition: opacity 4s ease-in-out;
+			-moz-transition: opacity 1s ease-in-out;
+			-webkit-transition: opacity 1s ease-in-out;
+			-ms-transition: opacity 1s ease-in-out;
+			transition: opacity 1s ease-in-out;
 			background: #313148;
 			content: '';
 			height: 100%;
@@ -3420,3 +3420,8 @@
 				}
 
 	}
+
+/* Custom */
+.lowerheader {
+	margin-top: 3em;
+}
