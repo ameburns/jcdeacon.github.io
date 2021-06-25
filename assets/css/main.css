@@ -2555,6 +2555,16 @@
 			background: #fafafa;
 		}
 
+		.wrapper.style5 {
+			background: #e67e22;
+			color: #f9d9d7;
+			border-left: 150px solid white;
+			border-right: 150px solid white;
+			border-top: 50px solid white;
+			border-bottom: 50px solid white;
+		}
+
+	
 /* Header */
 
 	#page-wrapper {
@@ -3429,3 +3439,41 @@
 .sponsor-level {
 	font-size: 25px
 }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+	position: relative;
+	display: inline-block;
+  }
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+
+.dropbtn {
+background-color: #1d2726;
+color: #cccccc;
+font-size: 14px;
+padding-left: 17px;
+text-decoration: none;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {color: white;}
+
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}

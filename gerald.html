@@ -1,0 +1,355 @@
+<!DOCTYPE HTML>
+<!--
+	Catalyst by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Caltech Robotics Team</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+			
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html" class="icon fa-at">Caltech Robotics</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="team.html">Team</a></li>
+						<div class="dropdown">
+							<li><a class = "dropbtn" href="vehicles.html">Vehicles</a></li>
+								<div class="dropdown-content">
+								<a href="gerald.html">Gerald</a>
+								<a href="deb.html">Deb</a>
+								<a href="flo.html">Flo</a>
+								</div>
+						</div>
+						<li><a href="software.html">Software</a></li>
+						<li><a href="outreach.html">Outreach</a></li>
+						<li><a href="sponsors.html">Sponsors</a></li>
+					</ul>
+				</nav>
+			</header>
+				
+				<div class="wrapper style2">
+					<section id="flo" class="container"  style="max-width: 1800px;">
+						<header class="major">
+							<h2>Gerald</h2>
+						</header>
+						<p>
+                            In 2020, as things shut down due to the COVID-19 pandemic and students were told to leave campus, the mechanical subteam devoted a large portion of their time towards 
+                            designing the team's newest sub: Gerald. Although the Caltech Robotics Team has been around for many years now, the current mechanical subteam is fairly young, so this 
+                            was a great learning opportunity for the whole team to design a new sub from scratch. Through multiple brainstorming sessions, design iterations, and FEA analyses, we 
+                            are proud to present to you the newest addition to our AUV family.<br><br>
+ 
+                            Since Gerald is still early in his development stages, this page focuses mainly on the progress of its mechanical design. Here we provide some design highlights, but 
+                            please feel free to read our latest technical design report for more details.
+						</p>
+					</section>
+				</div>
+
+
+			<!-- Design Overview -->
+				<div class="wrapper style1" style="padding-top: 25px">
+					<section id="flo" class="container"  style="max-width: 1800px;">
+						<header class="major">
+							<h2>Design Overview</h2>
+						</header>
+						<!-- Content -->
+						<section id="content">
+							<a href="#" class="image fit">
+								<img src="images/gerald.png" alt="" />
+							</a>
+							<h3></h3>
+						</section>
+                        <p> After working with our previous 2 subs, Flo and Deb, we had a lot of notes about what design aspects we liked about each sub and what design changes we wanted 
+                            to make moving forward. <br><br>
+                        </p>
+
+                        <img style = "float:left;padding:0px 50px 0px 0px;" src="images/deb_iso2_cropped.png" height="375px" width="500px" border="1px" padding="10px">
+                        <p><b>From Deb, we learned that: </b><br></p>
+                        <ul>
+                            <li>She is <b>too wide</b> to comfortably fit through the standard doorway.</li>
+                            <li><b>Modular battery pod</b> idea showed a lot of promise. However, the latches used on the battery pods were difficult to release and cumbersome to access. 
+                                We also changed what batteries we were using, so the batteries no longer fit correctly.</li>
+                            <li><b>"Floating hull" linkages are quite unsettling. </b>While the open hull configuration is actually quite stable and allows for easy access to the sub interior, 
+                                it gives the appearance that the sub could tip at any moment (and is a bit of a hazard for hitting your head on the upper hull).</li>
+                        </ul>
+
+                        <p style = "clear:left;"></p>
+                        <img style = "float:right;padding:0px 0px 50px 50px;" src="images/flo_grabcad_cropped.png" height="375px" width="550px" border="1px" padding="10px">
+                        <p><b>From Flo, we learned that: </b><br></p>
+                        <ul>
+                            <li><b>Large acrylic</b> dome on upper hull is nice because it allows for troubleshooting internal electronics without having to dry off and open the sub itself. However, it also
+							takes up a lot of space, reducing the available external hull surface area, which is often utilized for mounting manipulators and sensors.</li>
+                        </ul>
+
+                        <p>Using these notes, as well as other knowledge from working with the past 2 subs, we started to put together a design for Gerald. The design history of his 
+                            various components are detailed below.</p>
+
+						
+					</section>
+				</div>
+
+            <!-- Hulls -->
+            <div class="wrapper style2" style="padding-top: 25px">
+                <section id="deb" class="container"  style="max-width: 1800px;">
+                    <header class="major">
+                        <h2>Hulls</h2>
+                    </header>
+                    <!-- Content -->
+                    <section id="content">
+                        <a href="#" class="image fit">
+							<img src="images/gerald_hulls.png" alt="" />
+						</a>
+                        <h3></h3>
+                    </section>
+                    <p> The main body hulls of Gerald are designed to be made from the same aluminum alloy as the hulls used on Deb and Flo. For us, <b>aluminum alloy is a great balance between monetary 
+                        cost and density</b>, enabling us to be neither too heavy nor too light, which could cause problems with having a <b>net buoyancy</b> that is too high. The hulls were designed so that they 
+                        could be manufactured completely on a 5-axis CNC mill.
+ 
+                        The two hulls are <b>sealed with a large main O-ring</b> and then pressurized to a positive pressure using a bike pump. Using latches to hold the sub shut and a main O-ring to hold 
+                        pressure is a system we have used successfully in the past, so we decided to carry it forward into Gerald.
+                    </p>
+
+                    <img style = "float:left;padding:0px 50px 0px 0px;" src="images/Deb.jpg" height="375px" width="500px" border="1px" padding="10px">
+                    <p>From working with Deb (see left picture), we realized that her “+”-shaped geometry lacks useable interior space, whereas Flo, with the more traditional "box" design, does not. We also noticed that 
+                        <b>"box" designs are relatively simple, have fewer points for potential leaking, and are more durable.</b> They also tend to provide a more spacious interior, where electronics can be 
+                        organized without concern for buoyancy issues. For these reasons, we decided that for Gerald, we wanted to return to a "box" design submarine, as seen in the model of Gerald's 
+                        main hulls shown above. In general, we also wanted to design Gerald to have <b>more servo ports and more usable external surface area</b>, allowing for more mounting points for any 
+                        manipulators or other external hardware.</p>
+
+                    
+                </section>
+            </div>
+
+			           
+
+            <!-- Upper Hull -->
+            <div class="wrapper style5" style="padding-top: 0">
+                <section id="deb" class="container"  style="max-width: 1800px;">
+                    
+                    <!-- Content -->
+                    
+                    <p style = "clear:left;"></p>
+                    <img style = "float:right;padding:0px 0px 50px 50px;" src="images/gerald_hullTop.png" height="375px" width="550px" border="1px" padding="10px">
+                    
+					<p style="font-size:30px;margin-bottom:10px;"><u>Upper Hull</u></p>
+					
+					<p>
+                        The upper hull has mounting points for the handles (used to lift the sub manually and also act as latch points to lower the sub into the water at the TRANSDEC), the pressure gauge, 
+                        pressure valve, battery pod covers, hydrophones, and fathom mount and bulkhead. There is also a large rectangular acrylic plate that covers the front half of the hull.</p>
+
+
+					<p style="margin-bottom:0;"><u>Novel design changes:</u></p>
+					<ul>
+						<li><b>Acrylic window:</b> Larger than Deb's but smaller than Flo's for a "Goldilocks" balance between visualization into the sub and mounting space on the sub exterior.</li>
+						<li><b>Fathom bulkhead:</b> On both Deb and Flo, we often ran into problems with our ethernet connection, which is used during pool testing to connect Flo to our router. We also 
+							often had water traveling through our ethernet line. We hope to resolve both these issues by utilizing the more waterproof Fathom bulkhead. </li>
+					</ul>
+
+                </section>
+            </div>
+
+			<!-- Lower Hull -->
+			<div class="wrapper style2" style="padding-top: 0">
+				<section id="deb" class="container"  style="max-width: 1800px;">
+					
+					<!-- Content -->
+
+
+					<p style = "clear:right;"></p>
+					<img style = "float:left;padding:0px 50px 0px 0px;" src="images/gerald_hullBottom.png" height="375px" width="500px" border="1px" padding="10px">
+
+					<p style="font-size:30px;margin-bottom:10px;"><u>Lower Hull</u></p>
+
+					<p>
+						The lower hull has mounting points for the thrusters, hydrophones (including transmitter), DVL, electronics package, bottom half of battery pod system, multiports, small camera, 
+						and large camera dome.
+					</p>
+
+
+					<p style="margin-bottom:0;"><u>Novel design changes:</u></p>
+					<ul>
+						<li><b>Multiports:</b> These "multiports" are essentially open holes in the lower hull that can be <b>filled with a plate that can contain nearly any configuration of sensors or 
+							mounting points or any additional hardware that we could not foresee needing during our initial design</b> of Gerald. Some examples of potential multiport systems are a secondary 
+							camera that would provide additional visibility to the primary front dome camera gimbal system or even simply additional servo ports. Unneeded multiports can be sealed with 
+							a flat plate. </li>
+						<li><b>Hydrophones with transmitter:</b> Since the competition recently allowed for two subs in the water, we included a transmistter on Gerald to implement intersub communication between 
+							Gerald and Deb. Essentially we want the subs to communciate their position to each other, while considering interference with the pings, reflections off surfaces, and of course keeping 
+							in mind not to crash into each other. This communication system can be designed in many ways, so we developed an <b>emulator to simulate the transmission of signals between two subs in 
+							motion</b>. Different communication schemes have more bit loss or increased desynchrozination at higher bitrates, so the ongoing emulator testing will allow us to design our hardware 
+							around the best communciation methods. </li>
+
+						<li><b>Servo ports: </b>With Deb and Flo, we only had 6 and 3 servo ports, respectively. When designing manipulators, such as grippers and torpedo launchers and marker droppers, 
+							for these subs, we constantly ran into the problem of not having enough servo ports. For this reason, we have designed Gerald with a baseline of <b>10 servo ports</b>, which can be 
+							added to as needed using the multiports.</li>
+						<li><b>Mounting points: </b>  Flo and Deb both suffered from a shortage of mounting points: Flo because of her large acrylic dome, and Deb because of her unique "+"-shaped design. 
+							For this reason, we have designed Gerald to have <b>increased external surface area for mounting</b>, even with his larger internal cavity.</li>
+					</ul>
+
+				</section>
+			</div>
+
+            <!-- Battery Pods -->
+            <div class="wrapper style5" style="padding-top: 0">
+                <section id="deb" class="container"  style="max-width: 1800px;">
+                    
+                    <!-- Content -->
+
+					<p style = "clear:left;"></p>
+                    <img style = "float:right;padding:0px 0px 50px 50px;" src="images/gerald_hullTop.png" height="375px" width="550px" border="1px" padding="10px">
+
+					<p style="font-size:30px;margin-bottom:10px;"><u>Battery Pods</u></p>
+
+                    <p>
+                        Deb was initially designed to have 2 battery pods on the bottom of the bottom hull, which were intended to be used to switch out spent batteries. However, Deb's battery pods have 
+						difficult latches and were also designed for a different battery model, making the battery pods unusable in their intended fashion. <br><br>
+
+						With Gerald, we wanted to carry forward the battery pod idea. Battery pods would allow us to remove and replace batteries in the sub without having to open the main hulls, which has 
+						many benefits: this saves time, minimizes the amount of disruption to the electronics package, and reduces the odds of water getting into the sub when we swap batteries. In this 
+						configuration, Gerald's <b>batteries are stored upright, with removable top lids attached to the Upper Hull by latches.</b> Each battery pod lid and Upper Hull interface has its own o-ring 
+						system to maintain a watertight seal in the sub. 
+						</p>
+
+                </section>
+            </div>
+
+			<!-- Linkages -->
+			<div class="wrapper style2" style="padding-top: 0">
+				<section id="deb" class="container"  style="max-width: 1800px;">
+					
+					<!-- Content -->
+
+
+					<p style = "clear:right;"></p>
+					<img style = "float:left;padding:0px 50px 0px 0px;" src="images/linkages_open.png" height="450px" width="500px" border="1px" padding="10px">
+
+					<p style="font-size:30px;margin-bottom:10px;"><u>Linkages</u></p>
+
+					<p>
+						The linkages connect to both the upper hull and lower hull. Their main purpose is to hold the hulls in a stable open configuration, giving us access to the inside of the sub as needed.
+						With Deb, we had a "floating hull" style of linkage, i.e. when the hulls opened, the upper hull would float above and parallel to the bottom hull. While this configuration was mathematically
+						and physically stable, it was pretty unsettling in appearance because it always made it look like Deb could tip at any moment. It was also a bit of a safety hazard, with team members 
+						sometimes hitting their heads on the upper hull. Because of this, for Gerald, we wanted to use a different style of linkage that would allow the upper hull to be lifted up and moved back 
+						towards the rear of the sub. In the open configuration, the upper hull would lean against the rear thruster, with the linkages holding the upper hull open at an angle (approximately 50
+						degrees), almost like the hood of a car. A model of Gerald and his linkages in the open configuration is shown on the left for reference.
+					</p>
+
+				</section>
+			</div>
+
+			<!-- Linkages -->
+			<div class="wrapper style2" style="padding-top: 0;padding-bottom: 0px">
+				<section id="deb" class="container"  style="max-width: 1800px;">
+					
+					<!-- Content -->
+
+
+					<p style = "clear:left;"></p>
+					<img style = "float:right; padding:	0px -100px -100px 00px;" src="images/linkages_closedUse.png" height="250px" width="700px" border="1px" padding="10px">
+
+
+					<p>
+						This style of linkages is similar to those that we used in Flo. However, because of Gerald's rectangular hull dimensions and new design components, we had to significantly change the 
+						linkage design. The main change we made between Flo and Gerald was using a curved bottom linkage instead of a straight one. This was done to accommodate vertical space occupied by
+						the secondary camera multi-port. After creating the linakges in CAD, we also performed finite element analysis (FEA) to determine whether (1.) the sub would be stable in the open
+						configuration and (2.) whether the linkages themselves were strong enough to support the hulls in the open configuration. 
+					</p>
+
+					<p style = "clear:left;"></p>
+					
+					<img style = "float:right;padding:0px 0px 0px 20px;" src="images/linkages_displacement.png" height="600" width="600px" border="1px" padding="10px">
+					<img style = "float:left;padding:0px 0px 0px 20px;" src="images/linkages_stress.png" height="600" width="600px" border="1px" padding="10px">
+					
+					<p>The first FEA we conducted for the linkages was to validate the geometry of the individual linkages themselves. We conducted a <b>stress analysis (above left) with the linkages
+						loaded and constrained to simulate an open hull configuration</b>. Based on these analyses, we adjusted the linkage geometries until none of the linkages reached an internal stress greater than
+						the material's yield stress under the loading. We also ran a <b>displacement analysis (above right) to confirm that the hulls would stay open</b>, rather than just forcing the linkages 
+						to lean forward and slam shut. 
+					</p>
+
+					<p>We also conducted an <b>analysis to determine whether the entire sub would flip over when the upper hull was propped into the open position</b>. For this, we found the center of mass of the
+						bottom hull, upper hull, and whole assembly. Using this, we calculated the torque that results from having the upper hull in the open position about the sub's center of mass. This 
+						calculation confirmed that the sub would not flip over when it's open. 
+					</p>
+
+				</section>
+			</div>
+
+
+
+			<!-- Manipulators -->
+			<div class="wrapper style1" style="padding-top: 10px;padding-bottom: 150px">
+                <section id="manipulators" class="container"  style="max-width: 1800px;">
+                    <header class="major">
+                        <h2>Manipulators</h2>
+                    </header>
+                    <!-- Content -->
+                    <section id="content">
+						<p>	We have worked on a number of changes for our torpedo launcher and gripper mechanisms. Since these mechanisms are not permanent fixtures on the hulls, they can also be changed, 
+							if necessary, after the main hulls have been manufactured without much headache.</p>
+
+						<p style = "clear:right;"></p>
+						<img style = "float:left;padding:0px 50px 50px 0px;" src="images/gerald_torpedo.png" height="375px" width="500px" border="1px" padding="10px">
+						
+						<p style="font-size:30px;margin-bottom:10px;"><u>Torpedo Launcher</u></p>
+						
+						<p>
+							On Deb, we had a shortage of servo ports, so we had an unmotorized torpedo launcher that was activated externally through contact between the torpedo launcher and game elements. 
+							While this type of torpedo "launcher" was fairly successful and reliable in our testing, for Gerald, we wanted to try and make a more <b>traditional launcher that would propel the 
+							torpedoes through the target through motorized actuation</b> and additionally could be properly loaded when the sub is unpowered. The current design uses a servo arm to hold a 
+							specialized torpedo within a chamber until it is released. </p>
+
+						<p style = "clear:left;"></p>
+						<img style = "float:right;padding:0px 0px 0px 20px;" src="images/gerald_gripper.png" height="350" width="425px" border="1px" padding="10px">
+						<p style="font-size:30px;margin-bottom:10px;"><u>Gripper</u></p>
+
+						<p>When developing Gerald, we designed a number of different gripper ideas. We wanted a <b>simplistic, servo-driven design that could pick up 0.5" PVC</b>. The design shown on the left
+							is one of our early designs. The servo essentially acts as the pinion in a rack-and-pinion system, which drives the pivot point of the two gripping arms in and out. By driving the 
+							pivot linearly, we can actuate the opening and closing motion of the gripper.
+						</p>
+
+                    </section>
+                </section>
+            </div>
+
+		
+
+
+
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.youtube.com/user/CaltechRoboticsTeam" class="icon fa-youtube"><span class="label">Twitter</span></a></li>
+						<li><a href="https://twitter.com/citsubteam" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/CaltechRoboticsTeam/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/caltechrobotics/" class="icon fa-instagram"><span class="label">Github</span></a></li>
+					</ul>
+					<div class="copyright">
+						&copy; Caltech Robotics Team. All rights reserved. 
+						<br>
+						Website by <a href="https://www.linkedin.com/in/cgoecknerwald">Claire Goeckner-Wald</a>
+						<br>
+						Template by <a href="https://www.pixelarity.com/">Pixelarity</a>
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
