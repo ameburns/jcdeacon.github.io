@@ -1,0 +1,246 @@
+<!DOCTYPE HTML>
+<!--
+	Catalyst by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
+-->
+<html>
+	<head>
+		<title>Caltech Robotics Team</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="page-wrapper">
+			
+			<!-- Header -->
+			<header id="header">
+				<h1><a href="index.html" class="icon fa-at">Caltech Robotics</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="team.html">Team</a></li>
+						<div class="dropdown">
+							<li><a class = "dropbtn" href="vehicles.html">Vehicles</a></li>
+								<div class="dropdown-content">
+								<a href="gerald.html">Gerald</a>
+								<a href="deb.html">Deb</a>
+								<a href="flo.html">Flo</a>
+								</div>
+						</div>
+						<li><a href="software.html">Software</a></li>
+						<li><a href="outreach.html">Outreach</a></li>
+						<li><a href="sponsors.html">Sponsors</a></li>
+					</ul>
+				</nav>
+			</header>
+
+				
+				<div class="wrapper style2">
+					<section id="flo" class="container"  style="max-width: 1800px;">
+						<header class="major">
+							<h2>Software</h2>
+						</header>
+						<p>
+                            The software team is responsible for writing all the code that runs on the sub. Generally, our projects fall within these four main categories: 
+                        </p>
+
+
+                        <img style = "float:left;padding:0px 50px 0px 0px;" src="images/software_hardware.png" height="250px" width="400px" border="1px" padding="10px">
+                        <p><b>Hardware</b><br><br>The hardware code communicates with electrical boards created by the EE subteam. This code often does not change much unless the electrical 
+                            team updates the board designs. 
+                        </p>
+
+                        <p style = "clear:left;"></p>
+                        <img style = "float:left;padding:0px 50px 0px 0px;" src="images/software_mobility.png" height="275px" width="400px" border="1px" padding="10px">
+                        <p><b>Mobility and Sensor Fusion</b><br><br>The mobility code deals with how to move the robot, for example, by controlling the thrusters. <br>The EKF (Extended Kalman Filter) 
+                            falls into the sensor fusion category, as it takes measurements from various sensors such as the DVL, hydrophones, and accelerometers to obtain an estimate of the sub’s 
+                            location. </p>
+
+                        <p style = "clear:left;"></p>
+                        <img style = "float:left;padding:0px 50px 0px 0px;" src="images/software_vision.png" height="450px" width="400px" border="1px" padding="10px">
+                        <p><b>Vision</b><br><br>For the vision component, we use a combination of an ML detector (YOLO CNN) with more traditional feature detectors to identify objects of interest. 
+                            The YOLO CNN is trained using images from the TRANSDEC as well as pictures from tests in the Caltech pool. It is used for identifying more complex shapes or objects (such 
+                            as the vampires from the 2019 competition) and to supplement traditional detectors if needed. </p>
+
+                        <p style = "clear:left;"></p>
+                        <img style = "float:left;padding:0px 50px 0px 0px;" src="images/software_vision2.png" height="250px" width="400px" border="1px" padding="10px">
+                        <p>Traditional feature detectors try to identify objects by isolating colors using hue-masking or adaptive thresholding. Contours are validated using aspect ratio, object area, 
+                            and other checks. These typically do not involve any machine learning and are good projects for new members.</p>
+
+                        <p style = "clear:left;"></p>
+                        <img style = "float:left;padding:0px 50px 0px 0px;" src="images/software_commanders.png" height="255px" width="400px" border="1px" padding="10px">
+                        <p><b>Commanders</b><br><br>Commanders contain the logic of the robot. They determine how to interact with detected objects (pickups, approaches, following), how to move around the course, when to give 
+                            up on a task, etc. </p>
+                        
+                        <p><br></p>
+                        
+                        
+
+					</section>
+				</div>
+
+			<!-- Design Overview -->
+				<div class="wrapper style1" style="padding-top: 25px; padding-bottom: 1px;">
+					<section id="flo" class="container"  style="max-width: 1800px;">
+                        <p>Most of our work falls within the vision and commander categories in response to the changing themes and tasks of the RoboSub competition. New members typically 
+                            work on these specific projects because they are relatively straightforward and easy to get started with. More experienced members usually take on more general tasks 
+                            such as EKF improvements, which require more math background and a better understanding of the codebase. 
+                        </p>	
+					</section>
+				</div>
+
+            <!-- Hulls -->
+            <div class="wrapper style2" style="padding-top: 25px">
+                <section id="deb" class="container"  style="max-width: 1800px;">
+                    <header class="major">
+                        <h2>2020-2021</h2>
+                    </header>
+                    <!-- Content -->
+                    <p> Since the competition was virtual this year, there were no specific tasks to prepare for. We used this as an opportunity to focus on more general projects that would improve 
+                        the overall performance of the sub. The main focuses were: 
+                    </p>
+
+                    
+                </section>
+            </div>
+
+			           
+
+            <!-- EKF Improvements -->
+            <div class="wrapper style5" style="padding-top: 0; padding-bottom: 275px;">
+                <section id="deb" class="container"  style="max-width: 1800px;">
+                    
+                    <!-- Content -->
+                    
+                    <p style = "clear:left;"></p>
+                    <img style = "float:right;padding:0px 0px 50px 50px;" src="images/gerald_hullTop.png" height="375px" width="550px" border="1px" padding="10px">
+                    
+					<p style="font-size:30px;margin-bottom:10px;"><u>EKF Improvements</u></p>
+					
+					<p>
+                        We wanted to get better state estimations. (Josh can probably provide more information)</p>
+
+
+                </section>
+            </div>
+
+			<!-- Stereo Vision -->
+			<div class="wrapper style2" style="padding-top: 0; padding-bottom: 125px;">
+				<section id="deb" class="container"  style="max-width: 1800px;">
+					
+					<!-- Content -->
+
+
+					<p style = "clear:right;"></p>
+					<img style = "float:left;padding:0px 50px 0px 0px;" src="images/gerald_hullBottom.png" height="375px" width="500px" border="1px" padding="10px">
+
+					<p style="font-size:30px;margin-bottom:10px;"><u>Stereo Vision</u></p>
+
+					<p>
+						Our sub has two cameras, though of two different types: one is wide angle/fisheye and the other has a narrower field of view). We wanted to see if it was possible 
+                        to undistort the images from each camera and combine them to produce an effect similar to stereo vision, which would help with depth perception. Using two different 
+                        cameras did not yield promising results, but if we have two cameras of the same type in the future, stereo vision may be helpful.
+
+					</p>
+
+				</section>
+			</div>
+
+            <!-- ArUco Markers -->
+            <div class="wrapper style5" style="padding-top: 0">
+                <section id="deb" class="container"  style="max-width: 1800px;">
+                    
+                    <!-- Content -->
+
+					<p style = "clear:left;"></p>
+                    <img style = "float:right;padding:0px 0px 50px 50px;" src="images/software_aruco.png" height="350px" width="350px" border="1px" padding="10px">
+
+					<p style="font-size:30px;margin-bottom:10px;"><u>ArUco Markers</u></p>
+
+                    <p>
+                        ArUco markers are square binary fiducial markers that are often used to assist in pose estimation. They contain enough information to obtain camera orientation and angle 
+                        from a detection. Using ArUco markers, we can separate the tasks of writing detectors from writing commanders. Instead of waiting for a functioning detector to be created 
+                        before getting started on the commander as we did in the past, we can now place an ArUco marker on the object and use the ArUco marker detector to get reliable detections 
+                        of its position. This would allow us to develop and test the commander in parallel with work done on the detector. 
+
+						</p>
+
+                </section>
+            </div>
+
+			<!-- Color Segmentation -->
+			<div class="wrapper style2" style="padding-top: 0">
+				<section id="deb" class="container"  style="max-width: 1800px;">
+					
+					<!-- Content -->
+
+
+					<p style = "clear:right;"></p>
+					<img style = "float:left;padding:0px 50px 0px 0px;" src="images/software_colorSegmentation.png" height="350px" width="500px" border="1px" padding="10px">
+
+					<p style="font-size:30px;margin-bottom:10px;"><u>Color Segmentation</u></p>
+
+					<p>
+						For traditional detectors, we usually use HSV or RGB filtering to identify objects with colors of interest. For example, we use a red and orange HSV mask to find the gate underwater.
+                        However, this approach is sensitive to lighting and water conditions and can fail during competition where the environment is very different from the Caltech pool where we test our 
+                        detectors. To make our detections more robust, we trained a deep neural network to do color segmentation. 
+
+					</p>
+
+				</section>
+			</div>
+
+            <!-- Keypoint Estimation -->
+            <div class="wrapper style5" style="padding-top: 0; padding-bottom: 100px;">
+                <section id="deb" class="container"  style="max-width: 1800px;">
+                    
+                    <!-- Content -->
+
+					<p style = "clear:left;"></p>
+                    <img style = "float:right;padding:0px 0px 50px 50px;" src="images/software_keypointEstimation.png" height="375px" width="550px" border="1px" padding="10px">
+
+					<p style="font-size:30px;margin-bottom:10px;"><u>Keypoint Estimation</u></p>
+
+                    <p>
+                        Using our current ML detectors, we only get an overall bounding box around objects. However, for tasks such as torpedo shooting, buoy, and gripper tasks, we need to 
+                        precisely align with the prop before interacting with it. In these situations, it would be useful to know the actual orientation of the object. Keypoint estimation allows 
+                        us to locate the corners of the object, helping us determine our relative pose more accurately. 
+						</p>
+
+                </section>
+            </div>
+
+			
+			<!-- Footer -->
+				<footer id="footer">
+					<ul class="icons">
+						<li><a href="https://www.youtube.com/user/CaltechRoboticsTeam" class="icon fa-youtube"><span class="label">Twitter</span></a></li>
+						<li><a href="https://twitter.com/citsubteam" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/CaltechRoboticsTeam/" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/caltechrobotics/" class="icon fa-instagram"><span class="label">Github</span></a></li>
+					</ul>
+					<div class="copyright">
+						&copy; Caltech Robotics Team. All rights reserved. 
+						<br>
+						Website by <a href="https://www.linkedin.com/in/cgoecknerwald">Claire Goeckner-Wald</a>
+						<br>
+						Template by <a href="https://www.pixelarity.com/">Pixelarity</a>
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
