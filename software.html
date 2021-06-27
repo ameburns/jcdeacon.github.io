@@ -122,7 +122,10 @@
 					<p style="font-size:30px;margin-bottom:10px;"><u>EKF Improvements</u></p>
 					
 					<p>
-                        We wanted to get better state estimations. (Josh can probably provide more information)</p>
+                        This year, we have begun work to better handle orientation updates. Handling predictions of orientation
+						properly while avoiding gimbal lock requires using quaternions in the sub dynamics. To properly
+						handle linearization of quaternion operations, we are in the process of a significant reformulation of the EKF
+						itself.</p>
 
 
                 </section>
